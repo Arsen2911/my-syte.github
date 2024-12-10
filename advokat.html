@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakon.kz</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .custom-header {
+            font-size: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .custom-header {
+                font-size: 1.5rem;
+            }
+        }
+        .header{
+            height: 60px;
+        }
+        .navbar-nav {}
+    </style>
+</head>
+
+<body>
+    
+<header class="container-fluid bg-primary text-white text-center py-5">
+    <h1 class="custom-header display-4">Услуги адвоката</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-4">
+        <div class="container-fluid justify-content-center">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Про нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Сервисы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    <hr>
+
+
+    <section class="container my-4">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="download-1.jpg" class="d-block w-100" alt="..." height="600px" width="400px">
+                </div>
+                <div class="carousel-item">
+                    <img src="download-2.jpg" class="d-block w-100" alt="..." height="600px" width="400px">
+                </div>
+                <div class="carousel-item">
+                    <img src="download-5.jpg" class="d-block w-100" alt="..." height="600px" width="400px">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <hr>
+
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Про нас</h2>
+                <p>Добро пожаловать в нашу адвокатскую контору! Мы — команда опытных юристов, готовых защищать ваши
+                    интересы и помогать
+                    решать даже самые сложные юридические задачи.
+
+                    Наша миссия — предоставление профессиональной юридической помощи, основанной на индивидуальном
+                    подходе, высокой
+                    компетенции и абсолютной конфиденциальности. Мы ценим доверие наших клиентов и стремимся оправдать
+                    его на каждом этапе
+                    сотрудничества.
+                </p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Learn More</button>
+            </div>
+            <div class="col-md-6">
+                <img src="download-3.jpg" class="img-fluid" alt="Responsive image" height="300px" width="300px">
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Services Section -->
+    <section class="container my-4">
+        <h2>Наши возможности</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">1 </h5>
+                        <p class="card-text">Юрист для бизнеса</p>
+                        <span class="badge bg-success">New</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> 2 </h5>
+                        <p class="card-text">Бракоразводные процессы</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">3 </h5>
+                        <p class="card-text">Любые проблемы с законом</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Accordion Section -->
+    <section class="container my-4">
+        <h2>Популярные вопросы</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Как записаться на консультацию?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Вы можете записаться на консультацию через нашу форму на сайте, позвонив по телефону или
+                        отправив заявку на электронную
+                        почту.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Предоставляете ли вы рассрочку или гибкие условия оплаты?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Да, мы готовы предложить гибкие условия оплаты, включая рассрочку, в зависимости от ситуации.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Как рассчитывается стоимость услуг?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Стоимость услуг рассчитывается исходя из объема работы, сложности дела и времени, необходимого
+                        для его решения.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Могу ли я отказаться от вашего представительства на любом этапе?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Да, вы можете отказаться от наших услуг на любом этапе, предварительно урегулировав все
+                        финансовые вопросы.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Какова ваша политика конфиденциальности?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Мы гарантируем полную конфиденциальность всех обращений и соблюдаем профессиональную тайну.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Можете ли вы представлять интересы клиента в другой стране?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Мы сотрудничаем с зарубежными юристами и можем представлять интересы клиентов за границей в
+                        рамках международного права.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="container-fluid bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2024 Responsive and Adaptive Site</p>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Про нас</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Мы специализируемся на следующих направлениях:
+                    • Гражданское и административное право
+                    • Семейное право и бракоразводные процессы
+                    • Уголовные дела и защита в суде
+                    • Корпоративное право и поддержка бизнеса
+                    • Недвижимость и земельное право
+
+                    Обращаясь к нам, вы получите не только юридическую консультацию, но и поддержку на всех этапах дела
+                    — от анализа
+                    ситуации до успешного завершения. Мы ориентированы на результат и всегда стремимся минимизировать
+                    ваши риски и затраты.
+
+                    Доверьте свои юридические вопросы профессионалам, чтобы сосредоточиться на том, что для вас
+                    действительно важно.
+                    Свяжитесь с нами сегодня, чтобы обсудить вашу ситуацию!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
